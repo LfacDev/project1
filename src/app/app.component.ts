@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'project1';
+  //Lenguaje de programación TypeScript
+  public title: string = 'Componenete principal';
+
+  //propiedades 
+  //DataBinding 1. Interpolacion 
+  private dato: string = 'lorem ipsum dolor sit amet consectetur adipiscing elit';
+
+  //metodos
+
+  public getDato(): string {
+    return this.dato;
+  }
 }
